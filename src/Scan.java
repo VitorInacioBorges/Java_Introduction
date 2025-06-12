@@ -28,8 +28,17 @@ public class Scan { // Giving our main class the "Scan" Name
         System.out.println("The decimal number is: " + decimal);
         if(a) System.out.println("America IS bigger than Brasil!\n");
         else System.out.println("America is NOT bigger than Brasil!\n");
-        scanner.close(); 
-        // Closing the scanner object.
+
+        // Calculate the area of a rectangle
+        double width, height;
+        System.out.print("\nEnter the WIDTH of the rectangle: ");
+        width = scanner.nextDouble();
+        scanner.nextLine(); // Clenaning the buffer
+        System.out.print("Enter the HEIGHT of the rectangle: ");
+        height = scanner.nextDouble();
+        scanner.nextLine(); // Cleaning the buffer
+        System.out.println("The area of your rectangle is: " + width*height + " meters");
+        scanner.close();
     }
 }
 
