@@ -13,6 +13,7 @@ This Introduction will include:
 - Repetition/Loop Structures
 - Functions
 - Arrays
+- Methods
 - String Manipulation
 - Object Oriented Programming
 - etc
