@@ -1,3 +1,5 @@
+package theory;
+
 public class Variables {
     public static void main(String[] args) {
         /* Java is a typed language!

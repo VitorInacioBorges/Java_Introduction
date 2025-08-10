@@ -1,3 +1,5 @@
+package theory;
+
 public class StringMethod {
     public static void main(String[] args) {
         String name = "Vitor Inacio";

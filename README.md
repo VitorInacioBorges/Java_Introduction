@@ -1,6 +1,7 @@
 ## This is my Java Language Introdution
 
-Be aware that this is only the introduction to the language itself,   without any kind of frameworks or tools.
+Be aware that this is only the introduction to the language itself, without any kind of frameworks or tools.
+This repository is not made for running. It is a form of learning and documenting my studys on Java language.
 
 ## Study Planner
 
@@ -14,6 +15,7 @@ This Introduction will include:
 - Functions
 - Arrays
 - Methods
+- Overloaded Methods
 - String Manipulation
 - Object Oriented Programming
 - etc

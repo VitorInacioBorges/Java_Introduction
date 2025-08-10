@@ -1,3 +1,5 @@
+package theory;
+
 import java.util.Scanner;
 public class Conditional {
     public static void main(String[] args) {
