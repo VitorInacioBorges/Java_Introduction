@@ -1,4 +1,4 @@
-package theory;
+package theory.module1;
 
 public class StringMethod {
     public static void main(String[] args) {

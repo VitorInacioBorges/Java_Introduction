@@ -1,4 +1,4 @@
-package theory;
+package theory.module1;
 /* Overloaded Methods: methods that share the same name but have different parameter.
 *  Methods are defined as blocks of reusable code and each one of them has a different signature (characteristic).
 *  You can't have 2 methods with the same signature.

@@ -1,4 +1,4 @@
-package theory;
+package theory.module1;
 
 import java.util.Scanner;
 public class Printf{
@@ -29,7 +29,7 @@ public class Printf{
          * space  --> outputs a minus if negative and a space if positive
          * (      --> negative numbers are enclosed in ()
          * 
-         * [precision]:
+         * [.precision]:
          * 
          * display the precision of a floating number
          * Ex1:

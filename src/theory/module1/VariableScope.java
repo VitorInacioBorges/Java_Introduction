@@ -1,4 +1,4 @@
-package theory;
+package theory.module1;
 // Variable Scope: where a variable can be accessed
 // 2 types: LOCAL and CLASS
 // CLASS variables override LOCAL variables

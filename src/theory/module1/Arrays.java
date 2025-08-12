@@ -1,4 +1,4 @@
-package theory;
+package theory.module1;
 /*
 * ARRAYS: reference data type which store only values of the same type
 * can store booleans, chars, strings, integers, doubles and floats

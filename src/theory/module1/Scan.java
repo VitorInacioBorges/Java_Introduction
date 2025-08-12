@@ -1,4 +1,4 @@
-package theory;
+package theory.module1;
 
 import java.util.Scanner;
 import java.util.Locale;

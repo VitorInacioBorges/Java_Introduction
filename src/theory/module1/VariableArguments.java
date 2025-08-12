@@ -1,4 +1,4 @@
-package theory;
+package theory.module1;
 /*
 * Variable Arguments: allow a method to accept a varying number of arguments
 * they make methods more flexible, no need for overloaded methods

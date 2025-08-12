@@ -1,4 +1,4 @@
-package theory;
+package theory.module1;
 // A method is a block of resuable code that is used when it is called
 // In the main method             =>     calling method with 'name' and 'age' arguments
 // In the happyBirthday method    =>     actually creating a new method that doesn't require a value returnment

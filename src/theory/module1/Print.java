@@ -1,4 +1,4 @@
-package theory;
+package theory.module1;
 
 public class Print {
     public static void main(String[] args) throws Exception {
