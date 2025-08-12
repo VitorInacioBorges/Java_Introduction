@@ -1,4 +1,4 @@
-package pratice;
+package pratice.small_projects;
 /*
 * A CRUD Interface made for running in the terminal. It has the following options:
 * - Register the user
