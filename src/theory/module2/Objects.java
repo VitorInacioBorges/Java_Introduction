@@ -2,7 +2,7 @@ package theory.module2;
 /*
 * Object: An entity that holds data (attributes)
 * can perform actions (methods)
-* It is a reference data type
+* It is a reference data type /
 */
 
 import java.util.Random;
