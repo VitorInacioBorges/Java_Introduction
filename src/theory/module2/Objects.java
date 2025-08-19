@@ -12,7 +12,7 @@ public class Objects {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random(); // declaring objects with classes
 
-        Car car = new Car(); // same format as the above
+        Car car = new Car("Vitor", "Ford", "Mustang", 1983);
         System.out.println(car); // prints the memory path to the object
         System.out.printf("The car is a %s made by %s.\nSold: %b\nPrice: %f\nYear: %d\n", car.model, car.make, car.isSold, car.price, car.year);
         car.sell();
