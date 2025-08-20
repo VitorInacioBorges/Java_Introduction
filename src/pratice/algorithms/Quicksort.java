@@ -8,17 +8,22 @@ import java.util.stream.Stream;
 
 public class Quicksort {
     public static void main(String[] args) {
-        System.out.println(quicksort(Arrays.asList(10, 5, 2, 3))); // [2, 3, 5, 10]
+        // creating an integer array
+        Integer[] array = {7, 8, 2, 5, 1, 3, 4, 9, 0, 6};
+        // transforming this array into a list with the Array.asList method from Arrays package
+        List<Integer> list = Arrays.asList(array);
+        // sorting the array and printing
+        System.out.println(quicksort(list));
     }
 
     private static List<Integer> quicksort(List<Integer> list) {
+        // base case, arrays with 0 or 1 element are already "sorted"
         if (list.size() < 2) {
-            // base case, arrays with 0 or 1 element are already "sorted"
             return list;
-        } else {
-            // recursive case
-            Integer pivot = list.get(0);
 
+        // recursive case
+        } else {
+            Integer pivot = list.getFirst();
             // sub-array of all the elements less than the pivot
             List<Integer> less = list.stream().skip(1).filter(el -> el <= pivot)
                     .collect(Collectors.toList());
