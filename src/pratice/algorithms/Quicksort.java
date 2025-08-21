@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 public class Quicksort {
     public static void main(String[] args) {
         // creating an integer array
-        Integer[] array = {7, 8, 2, 5, 1, 3, 4, 9, 0, 6};
+        Integer[] array = {70, 86, 20, 5, 21, 32, 14, 9, 0, 6};
         // transforming this array into a list with the Array.asList method from Arrays package
         List<Integer> list = Arrays.asList(array);
         // sorting the array and printing
@@ -25,18 +25,25 @@ public class Quicksort {
         } else {
             Integer pivot = list.getFirst();
             // sub-array of all the elements less than the pivot
-            List<Integer> less = list.stream().skip(1).filter(el -> el <= pivot)
+            List<Integer> less = list
+                    .stream()
+                    .skip(1) // skips the first element (pivot)
+                    .filter(lowerEqual -> lowerEqual <= pivot)
                     .collect(Collectors.toList());
 
             // sub-array of all the elements greater than the pivot
-            List<Integer> greater = list.stream().skip(1).filter(el -> el > pivot)
+            List<Integer> greater = list
+                    .stream()
+                    .skip(1)
+                    .filter(higher -> higher > pivot)
                     .collect(Collectors.toList());
 
             return Stream.of(
                             quicksort(less).stream(),
                             Stream.of(pivot),
                             quicksort(greater).stream())
-                    .flatMap(Function.identity()).collect(Collectors.toList());
+                    .flatMap(Function.identity())
+                    .collect(Collectors.toList());
         }
     }
 }
