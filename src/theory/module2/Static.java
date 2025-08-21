@@ -15,7 +15,5 @@ public class Static {
         // own numOfFriends variable increased by one, they increase the same variable
         // by giving the variable the static keyword. Therefore, the variable numOfFriends
         // belongs to Friend class rather than a specific object
-
-        Math.round(2.99);
     }
 }

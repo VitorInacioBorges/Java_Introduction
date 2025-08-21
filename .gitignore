@@ -9,7 +9,8 @@
 # IDE files
 .idea/
 
-# Java files
+# Java files and directories
 bin/
 lib/
 out/
+.iml
