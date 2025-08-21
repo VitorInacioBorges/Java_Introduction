@@ -8,9 +8,9 @@
 
 # IDE files
 .idea/
+.iml
 
-# Java files and directories
+# Directories
 bin/
 lib/
 out/
-.iml
