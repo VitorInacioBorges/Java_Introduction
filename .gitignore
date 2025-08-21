@@ -1,0 +1,15 @@
+# Compiled class and package files
+.class
+.jar
+.war
+.ear
+.zip
+.tar.gz
+
+# IDE files
+.idea/
+
+# Java files
+bin/
+lib/
+out/

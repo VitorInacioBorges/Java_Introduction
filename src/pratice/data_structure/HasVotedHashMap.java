@@ -17,6 +17,6 @@ public class HasVotedHashMap {
     public static void main(String[] args){
         checkVoter("tom"); // didn't vote
         checkVoter("victor"); // didn't vote
-        checkVoter("victor"); // voted
+        checkVoter("victor"); // voted already
     }
 }
