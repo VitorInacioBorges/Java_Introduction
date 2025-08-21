@@ -1,19 +1,19 @@
-package theory.module2;
+package theory.module2.testClasses;
 
 public class Student {
-    String name;
-    int age;
-    long ID;
-    boolean isEnrolled;
+    public String name;
+    public int age;
+    public long ID;
+    public boolean isEnrolled;
 
-    Student(String name, int age, long ID, boolean isEnrolled) {
+    public Student(String name, int age, long ID, boolean isEnrolled) {
        this.name = name;
        this.age = age;
        this.ID = ID;
        this.isEnrolled = isEnrolled;
     }
 
-    void checkStudent() {
+    public void checkStudent() {
         if(isEnrolled) {
             System.out.printf("%s is enrolled!\n", this.name);
         } else {

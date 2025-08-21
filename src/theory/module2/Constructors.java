@@ -1,17 +1,16 @@
 package theory.module2;
+import theory.module2.testClasses.Student;
 /*
-* A special method found within a class that can initialize objects
-* You can pass arguments to a constructor and set up initial values
-*
-* Syntax:
-*
-* <NameOfClass>(<arg1>, <arg2>, ...){
-*      ...
-* }
-*
-*/
-
-// The following constructor was made within /Student.java
+ * A special method found within a class that can initialize objects
+ * You can pass arguments to a constructor and set up initial values
+ *
+ * Syntax:
+ *
+ * <NameOfClass>(<arg1>, <arg2>, ...){
+ *      ...
+ * }
+ *
+ */
 
 public class Constructors {
     public static void main(String[] args) {
